@@ -1,4 +1,4 @@
-# zebrafish-genome-analysis
+# Zebrafish Isoform Detection in RNA-Seq Data
 
 This project conducts analysis on Zebrafish RNA-Seq data between hour 2 post-fertilization and hour 6 post-fertilization to uncover gene isoforms during zebrafish embryo development. The project conducts the following steps in order:
 
