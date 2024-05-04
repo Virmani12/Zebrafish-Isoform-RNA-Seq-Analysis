@@ -1,12 +1,11 @@
 # zebrafish-genome-analysis
 
-This repository does a rough analysis on Zebrafish RNA-Seq coverage data between hour 2 post-fertilization and hour 6 post-fertilization (source of the data provided in the references below). The files in this repo complete the following tasks:
+This project conducts analysis on Zebrafish RNA-Seq data between hour 2 post-fertilization and hour 6 post-fertilization to uncover gene isoforms during zebrafish embryo development. The project conducts the following steps in order:
 
-1. Pre-process the hour 2 and hour 6 coverage data
-2. Calculate the log2 normalized difference in coverage (Hour 6 - Hour 2) over the entire dataset
+1. Pre-processing of RNA-Seq Data
+2. Log2 normalizing the difference in expression between hour 6 and hour 2 data
 3. Detect isoforms over the entire dataset
-
-The research question was presented through a college course as a term-long project. The course worked in groups, however, all code in this repo is solely written by me and has no other contributors.
+4. Visualize isoforms for further analysis
 
 ## References
-White et al. 2017
+Richard J White, John E Collins, Ian M Sealy, Neha Wali, Christopher M Dooley, Zsofia Digby, Derek L Stemple, Daniel N Murphy, Konstantinos Billis, Thibaut Hourlier, Anja Füllgrabe, Matthew P Davis, Anton J Enright, Elisabeth M Busch-Nentwich (2017) A high-resolution mRNA expression time course of embryonic development in zebrafish eLife 6:e30860.
